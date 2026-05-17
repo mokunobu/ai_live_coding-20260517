@@ -1,0 +1,21 @@
+{
+  "name": "ai-live-coding-20260517",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint:text": "textlint \"docs/**/*.md\" DESIGN.md",
+    "lint:copy": "textlint docs/work/WRK-007-KLGキャッチコピー設計書-2026-05-17.md"
+  },
+  "dependencies": {
+    "next": "^16.0.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@textlint-ja/textlint-rule-preset-ai-writing": "latest",
+    "textlint": "latest",
+    "textlint-rule-preset-ja-technical-writing": "latest"
+  }
+}
