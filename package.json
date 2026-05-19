@@ -5,8 +5,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint:text": "textlint \"docs/**/*.md\" DESIGN.md",
-    "lint:copy": "textlint docs/work/WRK-007-KLGキャッチコピー設計書-2026-05-17.md"
+    "lint:text": "textlint \"companion-core/**/*.md\" DESIGN.md",
+    "lint:copy": "textlint companion-core/work/WRK-007-KLGキャッチコピー設計書-2026-05-17.md"
   },
   "dependencies": {
     "next": "^16.0.0",
